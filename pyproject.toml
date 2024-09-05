@@ -1,17 +1,7 @@
-[tool.poetry]
+[project]
 name = "codontest"
 version = "0.1.0"
-description = "python speed test & glue binding test"
-license = "MIT"
-authors = ["0num4 <r.oonuma@matsuri-tech.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "3.12.3"
-# numpy = "^1.26.2"
-# mjx = "^0.1.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = []
