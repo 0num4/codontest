@@ -5,10 +5,7 @@ description = "python speed test & glue binding test"
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.12"
-authors = [{
-    name = "0num4",
-    email = "r.oonuma@matsuri-tech.com"
-}]
+authors = [{name = "0num4",email = "r.oonuma@matsuri-tech.com"}]
 dependencies = [
     "numpy",
 ]
