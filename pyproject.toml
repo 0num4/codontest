@@ -1,7 +1,14 @@
 [project]
 name = "codontest"
 version = "0.1.0"
-description = "Add your description here"
+description = "python speed test & glue binding test"
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+authors = [{
+    name = "0num4",
+    email = "r.oonuma@matsuri-tech.com"
+}]
+dependencies = [
+    "numpy",
+]
