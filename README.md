@@ -29,3 +29,15 @@ https://zenn.dev/turing_motors/articles/e23973714c3ecf#%E3%81%AA%E3%81%9Ccodon%E
 ```
 
 ## speedtest.py
+
+## uvに移行時にエラーが出た
+mac
+```
+❯ codon run -release hello.py 
+CError: dlopen(libpython.dylib, 0x0002): tried: 'libpython.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibpython.dylib' (no such file), '/Users/user/.codon/bin/libpython.dylib' (no such file), '/Users/user/.codon/bin/../lib/codon/libpython.dylib' (no such file), '/usr/lib/libpython.dylib' (no such file, not in dyld cache), 'libpython.dylib' (no such file)
+
+Raised from: std.internal.dlopen.dlopen.2:0
+/Users/user/.codon/lib/codon/stdlib/internal/dlopen.codon:31:9
+zsh: abort      codon run -release hello.py
+aituber-win-py3.12
+```
